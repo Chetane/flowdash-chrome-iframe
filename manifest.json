@@ -1,0 +1,10 @@
+  {
+    "name": "Flowdash IFrames Enabler",
+    "version": "1.0",
+    "description": "Bypass X-Frame Header for iframes loaded embedded within Flowdash",
+    "permissions": [ "webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "manifest_version": 2
+  }
